@@ -4,10 +4,9 @@ Placing objects can be done fairly easy. In unity you give some coordinates and 
 
 A week after investigating this issue Microsoft released a new service in azure. This service can store and get the objects. This will solve the location problems, what existed in the other solution.
 
-Start SampleHoloLens.sln
-In ViewController.cpp replace:
-SpatialAnchorsAccountId with the id from azure
-SpatialAnchorsAccountKey with the key from azure
+To start the project, start off with the azure tutorial as given in [this link](https://docs.microsoft.com/nl-nl/azure/spatial-anchors/quickstarts/get-started-hololens "Microsoft tutorial").
 
-
-[Create a HoloLens app with Azure Spatial Anchors, in C++/WinRT and DirectX](https://docs.microsoft.com/nl-nl/azure/spatial-anchors/quickstarts/get-started-hololens "Microsoft tutorial")
+- Start SampleHoloLens.sln
+- In ViewController.cpp replace:
+  - SpatialAnchorsAccountId with the id from azure
+  - SpatialAnchorsAccountKey with the key from azure
