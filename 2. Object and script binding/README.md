@@ -3,7 +3,9 @@
 This unity solution contains a cube, textblock and a script. These trigger eachother to act when some events happen.
 
 When watching at the cube the text will show "Focus on cube."
+
 When not watching at the cube the text will show "Focus off cube."
+
 When the cube is tapped the text will show "Cube tapped."
 
 These texts come from the cubeInteraction.cs script in the Assets/script folder. The script is bound on the cube, together with the gaze and tapmanager it will be triggered.
