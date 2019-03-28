@@ -1,6 +1,7 @@
 # Object placement
 
 In the unity editor we can define coordinates where holograms should be placed when the app is launched. The problem with this solution is when the application is deployed on another location, the holograms are placed on the wrong location as seen on the picture below.
+
 ![N|Solid](https://raw.githubusercontent.com/ilionx/qlabs-hololens-poc/master/1.%20Object%20placement/docs/images/current.png)
 
 To solve this problem we want to persist the location of the hologram. Using the azure spatial anchor store we can solve this issue. We need to save a spatialanchor, and based on room data it can be placed again using a watcher.
