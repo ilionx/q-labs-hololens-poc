@@ -8,8 +8,8 @@ Place the correct anchor in the variable chapterAnchorsFromBackend.
 Besides the anchor id's you need to set the account key and id from azure.
 Replace the next 2 variables in the cubeInteraction.cs file.
 
-string accountId = "set this";
-string accountKey = "set this";
+- string accountId = "set this";
+- string accountKey = "set this";
 
 These texts come from the cubeInteraction.cs script in the Assets/script folder. The script is bound on the cube, together with the gaze and tapmanager it will be triggered.
 
