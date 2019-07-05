@@ -1,3 +1,0 @@
-# qlabs hololens project
-
-TODO
